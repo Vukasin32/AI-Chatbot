@@ -1,0 +1,54 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi", "How are you", "Is anyone there?", "Hello", "Good day", "What's up", "Hi there", "Hello world", "Hellooou", "Halo, anyone there?", "Are you there?",
+                "Hey!", "Yo!", "Good morning!", "Good evening!", "How is it going?", "Hey there!", "Anyone home?", "What's new?", "Howdy!", "Nice to meet you!",
+                "How have you been?", "Long time no see!", "How is everything?", "What's happening?", "Good to see you!", "Hi friend!", "Hey buddy!", "Hey pal!", "How’s your day?", "How’s your morning?", "How’s your evening?", "What’s up, dude?", "What’s up, mate?", "Hello there!", "Hey, what’s new?", "How’s life?", "What’s going on?", "Hey, long time!", "Hello my friend!", "Hi, how’s it been?"
+            ],
+            "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Have a nice day", "Wish you all best, cya", "Wish you all good, see you later",
+                "Bye!", "Take care!", "See you soon!", "Later!", "Farewell!", "Catch you later!", "Until next time!", "Peace out!", "Good night!", "See you around!",
+                "Goodbye for now!", "Hope to see you again!", "Bye-bye!", "Catch you next time!", "Take it easy!", "Stay safe!", "Stay well!", "Have a good evening!", "Have a great day!", "See you next time!", "Hope we chat again!", "It was nice talking to you!", "Talk to you soon!", "See ya!", "Have a nice one!", "Stay in touch!", "Be safe!", "Best wishes!", "Wishing you all the best!", "Until we meet again!", "Have a great one!"
+            ],
+            "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "All the best for you!"],
+            "context_set": ""
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old", "how old is company", "When was the company found?", "how old are you", "age?", "In which year was company introduced?",
+                "What's your age?", "When did you start?", "How many years have you been here?", "How long have you been around?", "Are you new?", "Since when do you exist?", "When was your launch?", "How many years old are you?", "What year were you created?", "What's your birth year?",
+                "How long have you been in business?", "What is your founding year?", "How many years have you operated?", "When was your first day?", "What’s your anniversary?", "What’s your history?", "How did you start?", "How old is your brand?", "How long has your company been running?", "What’s the story of your company?", "How old is your organization?", "Are you a startup or an old company?", "How many generations have you lasted?", "What’s the background of your company?", "When did you first open?", "How many years have passed since you started?", "What’s your company timeline?", "How experienced is your company?", "When did your journey begin?", "How long has your service been available?"
+            ],
+            "responses": ["Our company was introduced in 2022.", "We are founded 3 years ago!"],
+            "context_set": ""
+        },
+        {
+            "tag": "shop",
+            "patterns": [
+                "Id like to buy something", "What's on the menu", "what do you reccommend?", "could i get something to eat", "Please be kind and tell me what you serve?", "What's your main job?",
+                "What do you sell?", "Do you have any food items?", "What kind of products do you offer?", "Tell me about your menu!", "What snacks do you have?", "Do you have something sweet?", "Are there any new items?", "What is your bestseller?", "Can I see a price list?", "What flavors do you have?",
+                "Do you offer drinks?", "Do you have any special offers?", "What’s your signature item?", "Do you have vegan options?", "Do you sell gluten-free cookies?", "Are your cookies homemade?", "Do you have any seasonal flavors?", "Can I order in bulk?", "Do you provide catering?", "Can I customize my order?", "Do you sell gift boxes?", "Do you have sugar-free options?", "Can I buy a single cookie?", "Do you offer discounts?", "What ingredients do you use?", "Can I place an online order?", "Do you deliver?", "What’s the shelf life of your cookies?", "Are your products organic?", "Do you have nut-free cookies?"
+            ],
+            "responses": ["We sell chocolate chip cookies, the box costs $2!", "Cookies are on the menu, the price is around 200 RSD!", "We sell cookies!", "We are famous cookie company."],
+            "context_set": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you guys open", "what are your hours", "hours of operation", "Time span of your work day", "Time", "When are you open?", "In which time you work?",
+                "What time do you close?", "Are you open on weekends?", "Do you operate on holidays?", "What's your business schedule?", "Can I visit you in the evening?", "Are you available 24/7?", "What is your daily working time?", "Is there a lunch break?", "Are you open on Sundays?", "Do you open early?",
+                "Do you have special holiday hours?", "Can I place an order after hours?", "Are you open on national holidays?", "What’s your busiest time?", "Do your hours change seasonally?", "Do you have a break during the day?", "Is there a specific time for bulk orders?", "Are you open late on Fridays?", "Can I visit you in the morning?", "Do your hours differ on weekends?", "Can I call you outside working hours?", "What’s the last hour for ordering?", "Do you have reduced hours on holidays?", "Are you open for special events?", "How early do you start baking?", "What’s the best time to visit?", "Do you open at the same time every day?", "Are your hours flexible?", "What are your business hours on Christmas?"
+            ],
+            "responses": ["We are open 7am-4pm Monday-Friday!"],
+            "context_set": ""
+        }
+    ]
+}
